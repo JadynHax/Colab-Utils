@@ -5,7 +5,9 @@ Some nice, easy-to-use, and convenient utilities for working with [Google Colabo
 - [Installation](#installation)
 
 ## Installation
-To install (in  **only**)
+To install (in Colab **only**), put the following line in a 
+
+*[Colab]: Google Colaboratory
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NTA4NTc3NCwxOTY3MjAzODU3XX0=
+eyJoaXN0b3J5IjpbMzM2MTA0OTM5LDE5NjcyMDM4NTddfQ==
 -->
