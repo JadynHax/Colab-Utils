@@ -12,6 +12,8 @@ To install (in Colab **only**), put the following line in a cell at the top of y
 ```
 If you already have a `pip install` line for other reasons, you can also simply add `colab-utils` to that line.
 
+==Develope
+
 ## Usage
 Seeing as there are several submodules to Colab Utils (much like the `google.colab` module within Colab), I recommend you import the submodules themselves, rather than the main module. For example:
 ```py
@@ -29,6 +31,6 @@ import colab_utils as utils
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDc0MDY2NzcsMTU4MTczOTY5LDE5Nj
+eyJoaXN0b3J5IjpbLTEzODIxNzc2NzMsMTU4MTczOTY5LDE5Nj
 cyMDM4NTddfQ==
 -->
