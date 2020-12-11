@@ -12,7 +12,7 @@ To install (in Colab **only**), put the following line in a cell at the top of y
 ```
 If you already have a `pip install` line for other reasons, you can also simply add `colab-utils` to that line.
 
-==Develope
+==Developer's Note: since this module is still in-progress, it has not been released on PyPI yet, and therefore cannot be installed as such.==
 
 ## Usage
 Seeing as there are several submodules to Colab Utils (much like the `google.colab` module within Colab), I recommend you import the submodules themselves, rather than the main module. For example:
@@ -30,7 +30,8 @@ Otherwise, if you *need* to import the main module to avoid name conflicts, I re
 import colab_utils as utils
 ```
 
+*[PyPI]: The Python Package Index
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODIxNzc2NzMsMTU4MTczOTY5LDE5Nj
-cyMDM4NTddfQ==
+eyJoaXN0b3J5IjpbODQ5NDM2MTI3LDE1ODE3Mzk2OSwxOTY3Mj
+AzODU3XX0=
 -->
