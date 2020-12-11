@@ -6,8 +6,10 @@ Some nice, easy-to-use, and convenient utilities for working with [Google Colabo
 
 ## Installation
 To install (in Colab **only**), put the following line in a cell at the top of your notebook:
-```py
+```ipython
+!pip install --upgra colab-utils
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MTczOTY5LDE5NjcyMDM4NTddfQ==
+eyJoaXN0b3J5IjpbLTE0ODk3NDcxMTIsMTU4MTczOTY5LDE5Nj
+cyMDM4NTddfQ==
 -->
