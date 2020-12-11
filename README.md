@@ -16,12 +16,15 @@ If you already have a `pip install` line for other reasons, you can also simply 
 Seeing as there are several submodules to Colab Utils (much like the `google.colab` module within Colab), it is recommended to import the submodules themselves, rather than the main module. For example:
 ```py
 # If you're only working with one submodule, just import it
+# by name. For example, using the drive submodule:
+from colab_utils import drive
 
 # Of course, if you intend to work with multiple submodules,
 # you can always simply import all of them.
 from colab_utils import *
 ```
+Otherwise, if you need to import the main module to a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDM4NDI3OTIsMTU4MTczOTY5LDE5Nj
-cyMDM4NTddfQ==
+eyJoaXN0b3J5IjpbLTEwMDg1NDA3OSwxNTgxNzM5NjksMTk2Nz
+IwMzg1N119
 -->
