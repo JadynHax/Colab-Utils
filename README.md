@@ -13,8 +13,13 @@ To install (in Colab **only**), put the following line in a cell at the top of y
 If you already have a `pip install` line for other reasons, you can also simply add `colab-utils` to that line.
 
 ## Usage
-Seeing as there are several submodules to Colab Utils (much like the `google.colab` module within Colab), it is recommended to import the submodules themselves rather than the main m
+Seeing as there are several submodules to Colab Utils (much like the `google.colab` module within Colab), it is recommended to import the submodules themselves, rather than the main module. For example:
+```py
+# If you intend to work with multiple submodules,
+you can
+from colab_utils import *
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU5NjAzNDU3LDE1ODE3Mzk2OSwxOTY3Mj
-AzODU3XX0=
+eyJoaXN0b3J5IjpbMTYwNTgyMzA1MywxNTgxNzM5NjksMTk2Nz
+IwMzg1N119
 -->
