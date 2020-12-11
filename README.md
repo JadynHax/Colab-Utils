@@ -23,10 +23,12 @@ from colab_utils import drive
 # you can always simply import all of them.
 from colab_utils import *
 ```
-Otherwise, if you need to import the main module to avoid name conflicts, I recommend you at least import it with a shorter name (that doesn't contain an underscore), like so:
+Otherwise, if you *need* to import the main module to avoid name conflicts, I recommend you at least import it with a shorter name (that doesn't contain an underscore), like so:
 ```py
+import colab_utils as utils
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzQ2MjMwMjAsMTU4MTczOTY5LDE5Nj
+eyJoaXN0b3J5IjpbLTEyNDc0MDY2NzcsMTU4MTczOTY5LDE5Nj
 cyMDM4NTddfQ==
 -->
