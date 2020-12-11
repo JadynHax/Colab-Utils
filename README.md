@@ -13,7 +13,7 @@ To install (in Colab **only**), put the following line in a cell at the top of y
 If you already have a `pip install` line for other reasons, you can also simply add `colab-utils` to that line.
 
 ## Usage
-Seeing as there are several submodules to Colab Utils (much like the `google.colab` module within Colab), it is recommended to import the submodules themselves, rather than the main module. For example:
+Seeing as there are several submodules to Colab Utils (much like the `google.colab` module within Colab), I recommend you import the submodules themselves, rather than the main module. For example:
 ```py
 # If you're only working with one submodule, just import it
 # by name. For example, using the drive submodule:
@@ -23,8 +23,10 @@ from colab_utils import drive
 # you can always simply import all of them.
 from colab_utils import *
 ```
-Otherwise, if you need to import the main module to a
+Otherwise, if you need to import the main module to avoid name conflicts, I recommend you at least import it with a shorter name (that doesn't contain an underscore), like so:
+```py
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDg1NDA3OSwxNTgxNzM5NjksMTk2Nz
-IwMzg1N119
+eyJoaXN0b3J5IjpbLTEyMzQ2MjMwMjAsMTU4MTczOTY5LDE5Nj
+cyMDM4NTddfQ==
 -->
